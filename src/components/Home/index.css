@@ -1,1 +1,32 @@
-/* Write your CSS here */
+* {
+  margin: 0px;
+}
+
+h1 {
+  color: white;
+}
+
+.link-style {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100vh;
+  background-color: #121313;
+  height: '100vh';
+}
+
+.card-container {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  background-color: #191819;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

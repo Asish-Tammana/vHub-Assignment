@@ -1,1 +1,30 @@
-/* Write your CSS here */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #101010;
+  padding: 10px;
+}
+
+.website-logo {
+  height: 50px;
+  width: 150px;
+}
+.logout-button {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.logout-button:hover {
+  background-color: #f5f5f5;
+  color: #444;
+}
